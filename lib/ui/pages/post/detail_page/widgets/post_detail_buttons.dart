@@ -1,12 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_blog/ui/pages/post/update_page/post_update_page.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-class PostDetailButtons extends StatelessWidget {
-  const PostDetailButtons({Key? key}) : super(key: key);
+class PostDetailButtons extends ConsumerWidget {
+  PostDetailButtons({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     return Row(
       mainAxisAlignment: MainAxisAlignment.end,
       children: [

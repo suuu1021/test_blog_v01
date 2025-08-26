@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 
 class CustomTextButton extends StatelessWidget {
   final String text;
-  final VoidCallback click;
+  // 비활성화 기능 추가하기 위해서 nullable 변경 처리함
+  // 중복 클릭 방지용
+  final VoidCallback? click;
 
   CustomTextButton({required this.text, required this.click});
 

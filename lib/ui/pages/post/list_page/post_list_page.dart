@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_blog/ui/pages/post/list_page/wiegets/post_list_body.dart';
+import 'package:flutter_blog/ui/pages/post/list_page/widgets/post_list_body.dart';
 import 'package:flutter_blog/ui/widgets/custom_navigator.dart';
 
 class PostListPage extends StatelessWidget {
